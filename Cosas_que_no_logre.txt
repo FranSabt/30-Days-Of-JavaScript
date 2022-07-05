@@ -1,0 +1,10 @@
+Day 01
+    hacer export-import de variables a a dataType
+    desestructurar un array de variables para impromirlas:
+        logrado con esta sintaxis:
+            const VARS = [ string, booleans, unde, nullish ];
+            for (v in VARS){
+                console.log(VARS[v]);
+            }
+        No estoy satisfecho, pero cain en cuenta que en VARS estaba declarando un obj '{}'
+        no un array '[]'

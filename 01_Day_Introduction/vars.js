@@ -24,21 +24,4 @@ let booleans = true;
 let unde = undefined;
 let nullish = null;
 
-const VARS = [ string, booleans, unde, nullish ];
-for (v in VARS){
-  console.log(typeof VARS[v]);
-}
-
-let var1, var2, var3, var4;
-let vari, varii, variii, variV = [1,2,3,4];
-
-let namef = 'fran';
-let namL = 'hernandez';
-let mStatus = 'single';
-let countryN = 'Vnzl'
-
-let Fname='Fran', Hname = 'hernandez', StatusA = 'Single', countryA = 'venz';
-
-let myAge = 30; yourAge = 33;
-
-console.log(`I'm ${myAge}\nan your age is ${yourAge}`);
+export default { string, booleans, unde, nullish };
